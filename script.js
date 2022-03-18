@@ -28,7 +28,7 @@ let money;
 let time;
 
 startBtn.addEventListener("click", function () {
-  time = prompt("ամիս, ամսաթիվ");
+  time = prompt("տարի, ամիս, օր YYYY-MM-DD");
   money = +prompt("ամսվա կտրվածքով ձեր գումfարը", "ՉԽԱՓԵՍ!!!");
 
   while (isNaN(money) || money === "" || money === null) {
