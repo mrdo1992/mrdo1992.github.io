@@ -80,11 +80,11 @@ countBtn.addEventListener("click", function () {
     appData.moneyPerDay = (appData.budget / 30).toFixed();
     dayBudgetValue.textContent = appData.moneyPerDay;
     
-    if (appData.moneyPerDay < 150000) {
+    if (appData.moneyPerDay < 5000) {
       levelValue.textContent = "Բոմժոտ ես ոնց որ";
-    } else if (appData.moneyPerDay > 150000 && appData.moneyPerDay < 500000) {
+    } else if (appData.moneyPerDay > 5000 && appData.moneyPerDay < 16700) {
       levelValue.textContent = "յոլա կեթաս";
-    } else if (appData.moneyPerDay > 500000) {
+    } else if (appData.moneyPerDay > 16700) {
       levelValue.textContent = "Հարգանքներիս Հավաստիքը";
     } else {
       levelValue.textContent = "ինչ-որ բան թերի է";
